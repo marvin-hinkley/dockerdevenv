@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "dotnet",
+            "name": "Run",
+            "projectPath": "dockerdevenv.csproj",
+            "exePath": "bin/Debug/net6.0/dockerdevenv.exe",
+            "args": [],
+        }
+    ]
+}
