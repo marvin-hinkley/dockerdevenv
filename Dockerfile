@@ -1,8 +1,8 @@
 FROM mcr.microsoft.com/dotnet/sdk:6.0-bullseye-slim
 
-RUN useradd -s /bin/bash -m fleet
-RUN groupadd docker && usermod -aG docker fleet
+RUN useradd -s /bin/bash -m vscode
+RUN groupadd docker && usermod -aG docker vscode
 
-USER fleet
+USER vscode
 
 ENTRYPOINT ["sleep", "infinity"]
